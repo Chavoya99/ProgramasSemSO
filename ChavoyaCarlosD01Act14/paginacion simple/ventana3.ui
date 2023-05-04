@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1849</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>1801</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Operación</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Resultado</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TME</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TT</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Estado</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>T Llegada</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>T Finalización</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>T Retorno</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>T Respuesta</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>T Espera</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>T Servicio</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TR CPU</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Tamaño</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>60</y>
+      <width>361</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Resumen</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1849</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
